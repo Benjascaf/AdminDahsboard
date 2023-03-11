@@ -5,41 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b7a68370f5.js" crossorigin="anonymous" ></script>
     <title>AdminDashboard</title>
 </head>
 <body>
     <div class="container">
         <div class="sidebar">
-            <h1>Dashboard</h1>
+            <div class="sidebar-title">
+                <i class="fa-solid fa-house "></i>
+                <h1>Dashboard</h1>
+            </div>
             <ul>
-                <li><i class="fa-regular fa-house-blank"></i><p>Home</p></li>
-                <li><i class="fa-regular fa-house-blank"></i><p>Profile</p></li>
-                <li><i class="fa-regular fa-house-blank"></i><p>Messages</p></li>
-                <li><i class="fa-regular fa-house-blank"></i><p>History</p></li>
-                <li><i class="fa-regular fa-house-blank"></i><p>Tasks</p></li>
-                <li><i class="fa-regular fa-house-blank"></i><p>Communities</p></li>
+                <li><i class="fa-solid fa-house"></i><p>Home</p></li>
+                <li><i class="fa-solid fa-house"></i><p>Profile</p></li>
+                <li><i class="fa-solid fa-house"></i><p>Messages</p></li>
+                <li><i class="fa-solid fa-house"></i><p>History</p></li>
+                <li><i class="fa-solid fa-house"></i><p>Tasks</p></li>
+                <li><i class="fa-solid fa-house"></i><p>Communities</p></li>
             </ul>
             <ul>
-                <li><i class="fa-regular fa-house-blank"></i><p>Settings</p></li>
-                <li><i class="fa-regular fa-house-blank"></i><p>Support</p></li>
-                <li><i class="fa-regular fa-house-blank"></i><p>Privacy</p></li>
+                <li><i class="fa-solid fa-house"></i><p>Settings</p></li>
+                <li><i class="fa-solid fa-house"></i><p>Support</p></li>
+                <li><i class="fa-solid fa-house"></i><p>Privacy</p></li>
             </ul>
         </div>
         <div class="header">
             <div class="header-top">
                 <form action="">
-                    <label for="search">Search</label>
+                    <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
                     <input type="search" id="search" name="search">
                 </form>
-                <img src="" alt="bell-icon">
-                <img src="" alt="usr-img">
-                <p class="user-name">Morgan Oakley</p>
+                <div class="header-top-decorations">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <img src="images/profile.png" alt="usr-img">
+                    <p class="user-name">Morgan Oakley</p>
+                </div>
             </div>
             <div class="header-bottom">
-                <img src="" alt="" class="usr-img">
-                <div class="greet-usr">
-                    <p>Hi there,</p>
-                    <h1>Morgan Oakley (@morgan)</h1>
+
+                <div class="greetings">
+                    <img src="images/profile.png" alt="" class="usr-img">
+                    <div class="greet-usr">
+                        <p>Hi there,</p>
+                        <h1>Morgan Oakley (@morgan)</h1>
+                    </div>
                 </div>
                 <ul>
                     <li>
